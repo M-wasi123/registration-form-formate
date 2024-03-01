@@ -1,1 +1,39 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.images{
+    width: 60%;
+}
+.heading{
+    font-size: 400%;
+}
+@media only screen and (max-width:1300px) {
+    .heading{
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width:1080px) {
+    .heading{
+        font-size: 200%;
+    }
+}
+@media only screen and (max-width:750px) {
+    .heading{
+        font-size: 150%;
+    }
+}
+@media only screen and (max-width:600px) {
+    .heading{
+        font-size: 100%;
+    }
+}
