@@ -4,84 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morent Registration Form</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="registration.css">
 </head>
 
 <body>
+    <a href="../../index.html"> <img class="back-img" src="https://cdn-icons-png.flaticon.com/512/7468/7468287.png" alt=""> </a>
+    <div class="main-container">
      <form action="">
-    <a href="../../index.html"> <img width="4%" src="https://cdn-icons-png.flaticon.com/512/7468/7468287.png" alt="">
-    </a>
-    <br>
-    <img style="margin-left: 40%;" style="margin-top: 30%;" src="./SMIT.png" alt="Image not found">
-    <br>
-    <h2 style="margin-left: 35%;">STUDENT REGISTRATION FORM</h2>
-    <br>
-    <label style="margin-left: 20%;" for="#">FIRST NAME</label>
-    <input style="margin-left: 11%;" type="text" name="FIRST NAME" id="FIRST NAME" placeholder="Enter The First Name">
+   
+ 
+    <img class="smit" src="./SMIT.png" alt="Image not found">
+    <h2 class="heading">STUDENT REGISTRATION FORM</h2>
+    <div>
+    <label for="FIRST NAME">FIRST NAME</label>
+    <input type="text" name="FIRST NAME" id="FIRST NAME" placeholder="Enter The First Name">
     (max 30 characters a-z and A-Z)
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">LAST NAME</label>
-    <input style="margin-left: 11.2%;" type="text" name="LAST NAME" id="LAST NAME" placeholder="Enter The LAST Name">
+</div>
+    <label for="LAST NAME">LAST NAME</label>
+    <input type="text" name="LAST NAME" id="LAST NAME" placeholder="Enter The LAST Name">
     (max 30 characters a-z and A-Z)
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">DATE OF BIRTH</label>
-    <input style="margin-left: 9.5%;" type="date">
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">EMAIL ID</label>
-    <input style="margin-left: 12.3%;" type="email" placeholder="Enter The Email Address">
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">MOBILE NUMBER</label>
-    <input style="margin-left: 8.3%;" type="text"  data-role="i123-input"
-        aria-labelledby="phone-00000014-acc phone-00000014-format-acc phone-00000014-error-acc phone-00000014-instr-acc"
-        placeholder="### ### #### " data-size="full">
+    <label for="date">DATE OF BIRTH</label>
+    <input id='date' type="date">
+    <label for="email">EMAIL ID</label>
+    <input id="email" type="email" placeholder="Enter The Email Address">
+    <label for="number">MOBILE NUMBER</label>
+    <input id="number" type="number" placeholder="Enter The Mobile Number">
     (10 Digits Numbers)
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">GENDER</label>
-    <label style="margin-left: 12.5%;" for="#">MALE <input type="radio" name="id"> </label>
-    <label style="margin-left: 7;" for="#"> FEMALE <input type="radio" name="id"> </label>
-    <br>
-    <br>
+    <div>
+    <label for="#">GENDER</label>
+    <label for="#">MALE <input type="radio" name="id"> </label>
+    <label for="#"> FEMALE <input type="radio" name="id"> </label>
+</div>
     <div class="container">
         <label style="margin-left: 20%;" for="#">ADDRESS</label>
-        <br>
-        <textarea style="margin-left: 37%; width: 20%; " aria-labelledby="" rows="6" data-size="full"></textarea>
+        <textarea aria-labelledby="" rows="6" data-size="full"></textarea>
     </div>
-    <br>
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">CITY</label>
-    <input style="margin-left: 14.2%;" type="text" placeholder="Enter The City Name"> (max 30 characters a-z and A-Z)
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">PIN CODE</label>
-    <input style="margin-left: 11.8%;" type="text" placeholder="Enter The City Name"> (max 6 Digits Numbers)
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">STATE</label>
-    <input style="margin-left: 13.4%;" type="text" placeholder="Enter The STATE Name"> (max 30 characters a-z and A-Z)
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">COUNTRY</label>
-    <input style="margin-left: 11.5%;" type="text" placeholder="Enter The Country Name">
-    <br>
-    <br>
-    <label style="margin-left: 20%;" for="#">HOBBIES</label>
-    <label style="margin-left: 11.9%;" for="#">Drawing <input type="checkbox"> </label>
-    <label style="margin-left: 3;" for="#">Singing <input type="checkbox"> </label>
-    <label style="margin-left: 3;" for="#">Dancing <input type="checkbox"> </label>
-    <label style="margin-left: 3;" for="#">sketching <input type="checkbox"> </label>
-    <br>
-
-    <label style="margin-left: 36.5%;" for="#">Other <input type="text"> </label>
-    <br>
-    <br>
-    <br>
+    <label for="city">CITY</label>
+    <input id="city" type="text" placeholder="Enter The City Name"> (max 30 characters a-z and A-Z)
+    <label for="postal">POSTAL CODE</label>
+    <input id="postal" type="text" placeholder="Enter The Postal Code"> (max 6 Digits Numbers)
+    <label for="state">STATE</label>
+    <input id="state" type="text" placeholder="Enter The STATE Name"> (max 30 characters a-z and A-Z)
+    <label for="country">COUNTRY</label>
+    <input id="country" type="text" placeholder="Enter The Country Name">
+    <div>
+    <label for="#">HOBBIES</label>
+    <label for="draw">Drawing <input id="draw" type="checkbox"> </label>
+    <label for="sing">Singing <input id="sing" type="checkbox"> </label>
+    <label for="danc">Dancing <input id="danc" type="checkbox"> </label>
+    <label for="sketch">sketching <input id="sketch" type="checkbox"> </label>
+    <label for="oth">Other <input id="oth" type="text"> </label>
+</div>
     <label style="margin-left: 19.8%;" for="#">QUALIFICATION</label>
     <label style="margin-left: 8.5%;" for="#"> <strong>SI.No. Examination </strong> </label>
     <label style="margin-left: 4%;" for="#"> <strong>Board</strong></label>
@@ -146,5 +120,6 @@
      <span  class="submit-state" data-i18n-text="textdef_132"> Reset </span>
       </button>
     </form>
+</div>
     </body>
 </html>

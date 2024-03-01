@@ -17,6 +17,9 @@
 .heading{
     font-size: 400%;
 }
+a:visited{
+    color: blueviolet;
+}
 @media only screen and (max-width:1300px) {
     .heading{
         font-size: 300%;
