@@ -14,111 +14,128 @@
     <div class="main-container">
     <img class="smit" src="./SMIT.png" alt="Image not found">
     <h2 class="heading">STUDENT REGISTRATION FORM</h2>
+    <div class="container">
     <div class="first-name">
     <label for="FIRST NAME">FIRST NAME</label>
+
     <input type="text" name="FIRST NAME" id="FIRST NAME" placeholder="Enter The First Name">
     (max 30 characters a-z and A-Z)
 </div>
-<div>
+<div class="first-name">
     <label for="LAST NAME">LAST NAME</label>
     <input type="text" name="LAST NAME" id="LAST NAME" placeholder="Enter The LAST Name">
     (max 30 characters a-z and A-Z)
 </div>
+<div class="Date">
     <label for="date">DATE OF BIRTH</label>
     <input id='date' type="date">
+</div>
+<div class="Email">
     <label for="email">EMAIL ID</label>
     <input id="email" type="email" placeholder="Enter The Email Address">
+</div>
+<div class="mobile-number">
     <label for="number">MOBILE NUMBER</label>
     <input id="number" type="number" placeholder="Enter The Mobile Number">
     (10 Digits Numbers)
-    <div>
+</div>
+    <div class="gender">
     <label for="#">GENDER</label>
+    <div class="male-female">
     <label for="#">MALE <input type="radio" name="id"> </label>
     <label for="#"> FEMALE <input type="radio" name="id"> </label>
 </div>
-    <div class="container">
-        <label style="margin-left: 20%;" for="#">ADDRESS</label>
-        <textarea aria-labelledby="" rows="6" data-size="full"></textarea>
+</div>
+    <div class="Address">
+        <label for="#">ADDRESS</label>
+        <textarea rows="6" data-size="full"></textarea>
     </div>
+    <div class="City">
     <label for="city">CITY</label>
     <input id="city" type="text" placeholder="Enter The City Name"> (max 30 characters a-z and A-Z)
+</div>
+<div class="Postal">
     <label for="postal">POSTAL CODE</label>
-    <input id="postal" type="text" placeholder="Enter The Postal Code"> (max 6 Digits Numbers)
+    <input id="postal" type="text" maxlength="6" placeholder="Enter The Postal Code"> (max 6 Digits Numbers)
+</div>
+<div class="State">
     <label for="state">STATE</label>
     <input id="state" type="text" placeholder="Enter The STATE Name"> (max 30 characters a-z and A-Z)
+</div>
+<div class="Country">
     <label for="country">COUNTRY</label>
     <input id="country" type="text" placeholder="Enter The Country Name">
-    <div>
+</div>
+    <div class="hobies">
     <label for="#">HOBBIES</label>
+    <div class="hobbie-opt">
     <label for="draw">Drawing <input id="draw" type="checkbox"> </label>
     <label for="sing">Singing <input id="sing" type="checkbox"> </label>
     <label for="danc">Dancing <input id="danc" type="checkbox"> </label>
     <label for="sketch">sketching <input id="sketch" type="checkbox"> </label>
     <label for="oth">Other <input id="oth" type="text"> </label>
 </div>
-    <label style="margin-left: 19.8%;" for="#">QUALIFICATION</label>
-    <label style="margin-left: 8.5%;" for="#"> <strong>SI.No. Examination </strong> </label>
-    <label style="margin-left: 4%;" for="#"> <strong>Board</strong></label>
-    <label style="margin-left: 8%;" for="#"> <strong>Percentage</strong></label>
-    <label style="margin-left: 5%;" for="#"> <strong>Year Of Passing</strong></label>
-    <br>
-    <br>
-    <label style="margin-left: 36.4%;" for="#">1</label>
-    <label style="margin-left: 2.4%;" for="#">Class X</label>
-    <input style="margin-left: 2.5%;" type="text">
+</div>
+<div class="Qualification">
+    <label for="#">QUALIFICATION</label>
+    <div class="examination">
+    <label for="#"> <strong>SI.No. Examination </strong> </label>
+    <label for="#"> <strong>Board</strong></label>
+    <label for="#"> <strong>Percentage</strong></label>
+    <label for="#"> <strong>Year Of Passing</strong></label>
+    <div class="result">
+    <label for="#">1</label>
+    <label for="#">Class X</label>
     <input type="text">
     <input type="text">
-    <br>
-    <br>
-    <label style="margin-left: 36.4%;" for="#">2</label>
-    <label style="margin-left: 2.4%;" for="#">Class XII</label>
-    <input style="margin-left: 1.8%;" type="text">
+    <input type="text">
+    <label for="#">2</label>
+    <label for="#">Class XII</label>
     <input type="text">
     <input type="text">
-    <br>
-    <br>
-    <label style="margin-left: 36.4%;" for="#">3</label>
-    <label style="margin-left: 2.5%;" for="#">Graduation</label>
-    <input style="margin-left: 1%;" type="text">
+    <input type="text">
+    <label for="#">3</label>
+    <label for="#">Graduation</label>
     <input type="text">
     <input type="text">
-    <br>
-    <br>
-    <label style="margin-left: 36.4%;" for="#">4</label>
-    <label style="margin-left: 2.3%;" for="#">Masters</label>
-    <input style="margin-left: 2.5%;" type="text">
+    <input type="text">
+    <label for="#">4</label>
+    <label for="#">Masters</label>
     <input type="text">
     <input type="text">
-    <br>
-    <br>
-    <label style="margin-left: 48%;" for="#">(10 char Max)</label>
-    <label style="margin-left: 6%;" for="#">upto 2 decimal</label>
-    <br>
-    <br>
-    <label style="margin-left: 19.8%;" for="#">COURSES </label>
-    <br>
-    <label style="margin-left: 19.8%;" for="#"> APPLIED FOR</label>
-    <select style="margin-left: 10%;" name="Course" id="Select any course">
+    <input type="text">
+</div>
+    <label for="#">(10 char Max)</label>
+    <label for="#">upto 2 decimal</label>
+</div>
+</div>
+<div class="courses">
+    <label for="#">COURSES </label>
+    <div class="applied">
+    <label for="#"> APPLIED FOR</label>
+    <select class="course-slection" name="Course" id="Select any course">
         <option value="Slect any course">Slect any course</option>
         <option value="Web and App">Web and App</option>
         <option value="Vocational Training Course">Vocational Training Course</option>
         <option value="Techincal Education">Techincal Education</option>
         <option value="Islamic Education">Islamic Education</option>
     </select>
-    <br>
-    <br>
-    <label style="margin-left: 19.8%;" for="#"> Upload your pic </label>
-    <br>
-    <label style="margin-left: 19.8%;" for="#"> (only .png,.jpg,.jpeg formats allow) </label>
-    <input style="margin-left: 1.8%;" type="file">
-    <br>
-    <br>
-    <br>
-    <button style="margin-left: 45%;"  data-role="submit" type="submit" class="actionBarBtn actionBarBtn--submit">
-        <span class="normal-state" data-i18n-text="SendButton">SUBMIT </span>
-        <button style="margin-left: 1%;"  data-role="submit" type="submit" class="actionBarBtn actionBarBtn--submit">
-     <span  class="submit-state" data-i18n-text="textdef_132"> Reset </span>
-      </button>
+</div>
+</div>
+<div class="upload-pic">
+    <label for="#"> Upload your pic </label>
+    <div class="only-allow">
+    <label for="#"> (only .png,.jpg,.jpeg formats allow) </label>
+    <div class="file">
+    <input type="file">
+</div>
+</div>
+</div>
+<div class="sub-res">
+    <button type="submit"> Submit </button>
+        <button type="reset">Reset</button>
+    </div>
+</div>
     </div>
     </form>
 
