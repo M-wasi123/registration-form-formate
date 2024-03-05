@@ -16,8 +16,8 @@
 .container{
     width: 100%;
     text-align: left;
-    padding: 40px 200px;
-    line-height: 30px;
+    padding: 40px 260px;
+    line-height: 40px;
 }
 .back-img{
     width: 3%;
@@ -27,4 +27,93 @@
     width: 30%;
     object-fit: cover;
 }
-
+input{
+    padding: 3px 1px;
+    outline: none;
+}
+.first-name{
+    display: flex;
+    gap: 100px;
+}
+.last-name{
+    display: flex;
+    gap: 102px;
+}
+.Date{
+    display: flex;
+    gap: 77px;
+}
+.Email{
+    display: flex;
+    gap: 122px;
+}
+.mobile-number{
+    display: flex;
+    gap: 58px;
+}
+.gender{
+    display: flex;
+    gap: 126px;
+}
+.male-female{
+    display: flex;
+    gap: 50px;
+}
+.Address{
+    display: flex;
+    gap: 118px; 
+}
+textarea{
+    padding: 5px 2px;
+}
+.City{
+    display: flex;
+    gap: 153px; 
+}
+.Postal{
+    display: flex;
+    gap: 83px; 
+}
+.State{
+    display: flex;
+    gap: 142px; 
+}
+.Country{
+    display: flex;
+    gap: 112px; 
+}
+.hobies{
+    display: flex;
+    gap: 119px; 
+}
+.hobbie-opt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:0px 20px;
+}
+.Qualification{
+    display: flex;
+    gap: 66px; 
+}
+.examination{
+    display: flex;
+    gap: 10px;   
+}
+.Qualificon{
+    display: flex;
+    gap: 200px; 
+}
+.result{
+    width: 100%;
+}
+.classes{
+    width: 100%;
+    display: flex;
+    gap: 1px 10px;
+}
+#class{
+    
+}
+#inpu{
+    width: 100%;
+}
