@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heading1{
+    padding: 30px 0px;
+}
+.email-password{
+    max-width: 250px;
+    width: 100%;
+    line-height: 50px;
+}
+.email{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+.password{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+}
+#Email{
+    width: 100%;
+    padding: 2px 6px;
+    outline: none;
+}
+#Password{
+    width: 100%;
+    padding: 2px 6px;
+    outline: none;
+}
+.sub-res{
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+#sub-res{
+    padding: 3px 10px;
+}
