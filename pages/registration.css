@@ -16,7 +16,7 @@
 .container{
     width: 100%;
     text-align: left;
-    padding: 40px 260px;
+    padding: 40px 160px;
     line-height: 40px;
 }
 .back-img{
@@ -93,27 +93,40 @@ textarea{
 }
 .Qualification{
     display: flex;
-    gap: 66px; 
+    gap: 64px; 
 }
 .examination{
-    display: flex;
-    gap: 10px;   
-}
-.Qualificon{
-    display: flex;
-    gap: 200px; 
-}
-.result{
     width: 100%;
-}
-.classes{
-    width: 100%;
-    display: flex;
-    gap: 1px 10px;
-}
-#class{
-    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; 
+    text-align: center;
+    column-gap: 20px;
+    row-gap: 10px;  
 }
 #inpu{
     width: 100%;
+}
+#lable{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.courses{
+    width: 100%;
+    display: flex;
+    gap: 110px;
+}
+.upload-pic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+#button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: rgb(146, 146, 144);
+    color: white;
 }
